@@ -12,7 +12,8 @@ const urlImagenInput = document.getElementById('urlImagen');
 const btnAgregar = document.getElementById('btn_agregar');
 
 // URL de la API
-const apiUrl = 'http://localhost:3000';
+//const apiUrl = 'http://localhost:3000';
+const apiUrl = 'https://cemshop.onrender.com/';
 
 // Manejar el evento de envío del formulario
 btnAgregar.addEventListener('click', function(event) {
@@ -45,7 +46,7 @@ btnAgregar.addEventListener('click', function(event) {
   };
 
   // Realizar una solicitud POST a la API para agregar el carro
-  fetch(`http://localhost:3000/Mongo/CREAR?LaDB=CHUY&LaColeccion=CEMBikes`, {
+  fetch(`https://cemshop.onrender.com/Mongo/CREAR?LaDB=CHUY&LaColeccion=CEMBikes`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

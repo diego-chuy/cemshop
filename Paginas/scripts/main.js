@@ -1,5 +1,6 @@
 // URL de la API
-const apiUrl = 'http://localhost:3000/usuarios';
+//const apiUrl = 'http://localhost:3000/usuarios';
+const apiUrl = 'https://cemshop.onrender.com/usuarios';
 
 // Obtener referencias a los elementos HTML
 const usuarioInput = document.getElementById("login-email");

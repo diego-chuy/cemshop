@@ -6,7 +6,8 @@ window.onload = (event) => {
 
 //Funcion para cargar los carros 
 function cargar_carros() {
-    const api = "http://localhost:3000/Mongo/LEER?LaDB=CHUY&LaColeccion=CEMBikes";
+    //const api = "http://localhost:3000/Mongo/LEER?LaDB=CHUY&LaColeccion=CEMBikes";
+    const api = "https://cemshop.onrender.com/Mongo/LEER?LaDB=CHUY&LaColeccion=CEMBikes";
     
     console.log(api);
     
@@ -69,7 +70,7 @@ btn_buscar.addEventListener('click', function(){
 
 
 function buscarXfiltro(filtro, texto) {
-    const api_filtro = `http://localhost:3000/vehiculos/${filtro}/${texto}`;
+    const api_filtro = `https://cemshop.onrender.com/vehiculos/${filtro}/${texto}`;
     fetch(api_filtro)
         .then(respuesta => respuesta.ok ? respuesta.json() : Promise.reject(respuesta))
         .then(data => {

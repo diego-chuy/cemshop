@@ -14,7 +14,8 @@ const urlImagenInput = document.getElementById('urlImagen');
 const btnModificar = document.getElementById('btn_mod');
 
 // URL de la API
-const apiUrl = 'http://localhost:3000';
+//const apiUrl = 'http://localhost:3000';
+const apiUrl = 'https://cemshop.onrender.com';
 
 // Función para cargar los datos del carro en el formulario
 function cargarDatosCarro(carro) {

@@ -28,6 +28,7 @@ function cargarDatosCarro(carro) {
 }
 
 
+//const apiUrl = 'https://cemshop.onrender.com';
 const apiUrl = 'http://localhost:3000';
 btnBuscar.addEventListener('click', function() {
     const idCarro = idInput.value;
