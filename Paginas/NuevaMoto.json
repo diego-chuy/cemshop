@@ -1,0 +1,15 @@
+{
+    "marca":"Yamaha",
+    "linea":"R1M",
+    "precio":"220,000",
+    "ano":"2022",
+    "kilometraje":"4,567",
+    "transmision":"Mecanica",
+    "color":"Negra",
+    "cilindrada":"998",
+    "tipo":"Racing",
+    "fotos":[
+        "jpg",
+        1
+    ]
+}

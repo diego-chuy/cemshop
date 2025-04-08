@@ -1,0 +1,96 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo/a.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Vorsa Auto Garage</title>
+</head>
+
+<body class="bg">
+    <nav>
+        <div class="navTop">
+            <div class="navItem">
+                <img src="logo/VorsaLogo.png" alt="" height="130px" >
+            </div>
+
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <a href="agregarAdmin.html">Agregar</a>
+                  </div>
+                  <div class="col">
+                    <a href="modificarAdmin.html">Modificar</a>
+                  </div>
+                  <div class="col">
+                    <a href="MainAdmin.html">Buscar</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex justify-content-center mt-4">
+      <div class="w-50 text-center">
+        <h1>Vender carro</h1>
+      </div>
+    </div>
+  
+    <div class="d-flex justify-content-center">
+      <div class="">
+        <div class="input-group mt-5">
+          <span class="input-group-text" id="basic-addon1">ID</span>
+          <input type="text" class="form-control" placeholder="" style="margin-bottom: 0" id="inputtexto" />
+          <button type="button" class="btnA" id="btnBuscar">Buscar carro</button>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container  mt-5 p-4 justify-content-center text-dark">
+      <div class="card text-center shadow">
+        <div class="card-body" id="cardB">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Porsche_992_GT3_1X7A0323.jpg/1200px-Porsche_992_GT3_1X7A0323.jpg" alt="" class="card-img-top w-75 h-75" id="img_card">
+
+            <div class="d-flex justify-content-center ">
+                <h2 class="" id="marca_card">Porsche</h2>
+                <h2 class="ms-2" id="linea_card">911 GT3</h2>
+            </div>
+
+            <h4 class="" id="precio_card">$1,000,000.00</h4>
+
+            <div class="d-flex justify-content-center ">
+                <h5 class="year p-2 " id="year_card">2018</h5>
+                <h5 class="ms-2 p-2 " id="kilometraje_card">1,800km</h5>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <h5 class="" id="transmision_card">Manual</h5>
+                <h5 class="ms-3 " id="color_card">Blanco</h5>
+                <h5 class="ms-3 " id="motor_card">Boxer de 6 cilindros</h5>
+                <h5 class="ms-3 " id="tipo_card">Compacto</h5>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="container justify-content-center mb-5 ">
+    <div class="text-center">
+      <input type="submit" value="Vender" id="btn_vender" style="width: 300px; font-size: 40px;" />
+    </div>
+  </div>
+
+
+  
+    <script src="scripts/vendercarro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
