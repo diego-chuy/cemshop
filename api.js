@@ -4,7 +4,7 @@
 const express = require(`express`);
 const cors = require(`cors`);
 const app = express();
-const port = 3000;
+const port = process.env.PORT | 3000;
 
 //const elMongo = require(`./elMongo.js`); //con esto levantamos todo el codigo 
 const LasFuncionesMongolas = require("./elMongo.js"); //aqui agarramos solo las funciones que exportamos desde el moudulo LasFuncionesMongolas. 
